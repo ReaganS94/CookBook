@@ -1,0 +1,49 @@
+.footer-wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr 1fr 10% 1fr 1fr 33%;
+
+}
+
+.Location_Houston {
+    display: grid;
+    grid-column: 1 / 2; 
+    padding-top: 50px;
+}
+
+.Location_Berlin {
+    display: grid; 
+    grid-column: 2 / 3; 
+    padding-top: 50px;
+}
+
+.Working_Hours_Days {
+    display: grid; 
+    grid-column: 4 / 5;
+    padding-top: 50px;
+
+}
+
+.Working_Hours_Hours {
+    display: grid;
+    grid-column: 5 / 6;
+    padding-top: 50px;
+}
+
+.Logo_Footer {
+    display: grid;
+    grid-column:  6 / 8; 
+  
+
+}
+
+li {
+    padding: 5px;
+    color: #ff0000;
+}
+
