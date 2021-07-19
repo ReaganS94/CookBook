@@ -10,3 +10,13 @@ window.onclick = function(e) {
       }
     }
 }
+
+const pan = document.getElementById('pan');
+const bowl1 = document.getElementById('bowl1');
+
+
+window.addEventListener('scroll', function() {
+  const value = window.scrollY;
+
+  bowl1.style.left = value * 0.5 + 'px';
+})
