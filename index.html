@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Horns</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./images/Myfavicon.ico" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Lobster&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <nav>
@@ -18,28 +22,31 @@
         <div class="nav-wrapper">
             <hr style="width: 100%; color: white;">
             <div class="navbar">
-                <a href="#home">Home</a>
-                <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">Menu
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content" id="myDropdown">
-                  <a href="#">Steak</a>
-                  <a href="#">Burger</a>
-                  <a href="#">Grill-Mix</a>
-                </div>
-                </div>
-                <a href="#contact">Contact</a> 
+                <a href="#home">Steak</a>
+                <a href="#contact">Burger</a>
+                <a href="#contact">Grill-Mix</a>
               </div>
         </div>
     </nav>
-      <div class="top-pan">
-        <div class="move-around">
-          <img src="./images/food/top-pan.png" alt="" id="pan">
-          <img src="./images/food/bowl1.png" alt="" id="bowl1">
+    <section class="top-section">
+        <div class="pic-wrapper">
+            <img src="./images/food/burgers2.jpg" alt="">
+            <div class="search-wrapper">
+                <fieldset>
+                    <legend align="center">Search for a recipe</legend>
+                    <input list="recipe" type="search" placeholder="Search..." id="recipes" name="recipes" autocomplete="off"/>
+                    <datalist id="recipe">
+                        <option value="Steak Texas Style">
+                        <option value="Pulled Pork">
+                        <option value="Slow Cooked Ribs">
+                        <option value="Sloppy Joe">
+                    </datalist>
+                </fieldset>
+                
+            </div>
         </div>
-        
-      </div>
+      
+    </section>
         
     <script src="./script.js"></script>
 </body>
