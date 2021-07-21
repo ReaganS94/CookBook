@@ -17,37 +17,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Lobster&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <nav>
-        <img src="./images/logo2-removebg-preview.png" alt="Red Horns Logo">
-        <div class="nav-wrapper">
-            <hr style="width: 100%; color: white;">
-            <div class="navbar">
-                <a href="#home">Steak</a>
-                <a href="#contact">Burger</a>
-                <a href="#contact">Grill-Mix</a>
-              </div>
+  <nav>
+    <video autoplay muted loop id="myVideo">
+      <source src="./videos/video.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+      <img src="./images/logo2-removebg-preview.png" alt="Red Horns Logo">
+      <div class="nav-wrapper">
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+        <hr style="width: 100%; color: white;">
+        <div class="navbar">
+          <a href="#home">Steak</a>
+          <a href="#contact">Burger</a>
+          <a href="#contact">Grill-Mix</a>
         </div>
-    </nav>
-    <section class="top-section">
-        <div class="pic-wrapper">
-            <img src="./images/food/burgers2.jpg" alt="">
-            <div class="search-wrapper">
-                <fieldset>
-                    <legend align="center">Search for a recipe</legend>
-                    <input list="recipe" type="search" placeholder="Search..." id="recipes" name="recipes" autocomplete="off"/>
-                    <datalist id="recipe">
-                        <option value="Steak Texas Style">
-                        <option value="Pulled Pork">
-                        <option value="Slow Cooked Ribs">
-                        <option value="Sloppy Joe">
-                    </datalist>
-                </fieldset>
-                
-            </div>
-        </div>
-      
-    </section>
+      </div>
+      <div class="search-wrapper">
+        <fieldset>
+          <legend align="center">Search for a recipe</legend>
+          <input list="recipe" type="search" placeholder="Search..." id="recipes" name="recipes" autocomplete="off"/>
+          <datalist id="recipe">
+            <option value="Steak Texas Style">
+            <option value="Pulled Pork">
+            <option value="Slow Cooked Ribs">
+            <option value="Sloppy Joe">
+          </datalist>
+        </fieldset>
+      </div>
+    </div>
+  </nav>
+  
+  <section class="intro">
+    <img src="./images/logo2-removebg-preview.png" alt="">
+  </section>
         
-    <script src="./script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>

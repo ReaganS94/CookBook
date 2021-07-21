@@ -24,22 +24,8 @@
     background-color: red;
 }
 
-.top-section {
-    padding-top: 6px;
-}
-
-.pic-wrapper {
-    position: relative;
-    display: inline-block;
-}
-
-.pic-wrapper img {
-    max-height: 100%;
-    max-width: 100%;
-}
-
 .search-wrapper {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left:0 ;
     width: 100%;
@@ -117,4 +103,41 @@ legend {
 
 input::placeholder {
     font-family: 'Lobster', cursive;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 80%;
+    
+}
+  
+.content {
+    position: fixed;    
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Kavivanar', cursive;
+}
+  
+#myBtn:hover {
+    background: #ddd;
+    color: red;
+}
+
+.intro {
+    padding-top: 3em;
 }
