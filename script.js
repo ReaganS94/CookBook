@@ -1,5 +1,4 @@
-
-const video = document.getElementById("myVideo");
+const video = document.getElementById("videoBackground");
 
 // Get the button
 const btn = document.getElementById("myBtn");
