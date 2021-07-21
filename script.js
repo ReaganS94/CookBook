@@ -1,12 +1,15 @@
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
+const video = document.getElementById("videoBackground");
 
-window.onclick = function(e) {
-    if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-      if (myDropdown.classList.contains('show')) {
-        myDropdown.classList.remove('show');
-      }
-    }
+// Get the button
+const btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
 }

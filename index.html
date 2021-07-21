@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Red Horns</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="./images/Myfavicon.ico" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/navbar.css">
-    <link rel="stylesheet" href="./css/footer.css">
-</head>
-<body>
-    <nav>
-        <img src="./images/logo2-removebg-preview.png" alt="Red Horns Logo">
-        <div class="nav-wrapper">
-            <hr style="width: 90%; color: white;">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="videowrapper">
+      <div class="fullScreenDiv">
+        <video
+          id="videoBackground"
+          role="presentation"
+          preload="auto"
+          playsinline=""
+          crossorigin="anonymous"
+          loop=""
+          muted=""
+          autoplay=""
+        >
+          <source src="./videos/video.mp4" type="video/mp4" />
+        </video>
+        <nav>
+          <img src="./images/logo2-removebg-preview.png" alt="Red Horns Logo" />
+          <div class="nav-wrapper">
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+            <hr style="width: 100%; color: white" />
             <div class="navbar">
-                <a href="#home">Home</a>
-                <div class="dropdown">
-                <button class="dropbtn" onclick="myFunction()">Menu
-                  <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content" id="myDropdown">
-                  <a href="#">Steak</a>
-                  <a href="#">Burger</a>
-                  <a href="#">Grill-Mix</a>
-                </div>
-                </div>
-                <a href="#contact">Contact</a> 
-              </div>
+              <a href="#steak">Steak</a>
+              <a href="#burger">Burger</a>
+              <a href="#grill">Grill-Mix</a>
+            </div>
+          </div>
+        </nav>
+        <div class="videoMessage" class="styling">
+          <div class="search-wrapper">
+            <fieldset>
+              <legend align="center">Search for a recipe</legend>
+              <input
+                list="recipe"
+                type="search"
+                placeholder="Search..."
+                id="recipes"
+                name="recipes"
+                autocomplete="off"
+              />
+              <datalist id="recipe">
+                <option value="Steak Texas Style"></option>
+                <option value="Pulled Pork"></option>
+                <option value="Slow Cooked Ribs"></option>
+                <option value="Sloppy Joe"></option>
+              </datalist>
+            </fieldset>
+          </div>
         </div>
-    </nav>
-        
-        
+      </div>
+    </div>
+    <section class="intro">
+      <h1>HELLOOOOOOO</h1>
+    </section>
+
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
