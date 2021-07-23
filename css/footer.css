@@ -1,49 +1,128 @@
+.specialties-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+.headline-specialties {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.specialties_section {
+  display: flex;
+  margin-top: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.specialty-card {
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 200px;
+  padding: 30px;
+  margin: 31px 0;
+}
+
+.card-overlay {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+}
+
+.specialty-card .card-overlay h2 {
+  color: white;
+}
+.specialty-card .filet-mignon {
+  background-image: url(../images/food/filet_mignon.png);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+.specialty-card .burger {
+  background-image: url(../images/food/hamburger-1238246_1280.png);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+.specialty-card .barbecue {
+  background-image: url(../images/food/barbecue-1239145_1280.png);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+.specialty-card:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+
+.specialty-card-title {
+  opacity: 0;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+.specialty-card:hover .specialty-card-title {
+  opacity: 1;
+}
+/*
+.headlineSpecial {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.container_filet {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+
+.container_burger {
+  display: flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/
 .footer-wrapper {
-    width: 85%;
-    margin: 0 auto;
+  width: 85%;
+  margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    grid-template-rows: 1;
-    grid-template-columns: 1fr 1fr 10% 1fr 1fr 33%;
-
+.containerSocialIcons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  box-shadow: 0px -10px 30px -15px rgb(255 0 0 / 20%);
 }
-
-.Location_Houston {
-    display: grid;
-    grid-column: 1 / 2; 
-    padding-top: 50px;
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  margin-bottom: 50px;
 }
-
-.Location_Berlin {
-    display: grid; 
-    grid-column: 2 / 3; 
-    padding-top: 50px;
-}
-
-.Working_Hours_Days {
-    display: grid; 
-    grid-column: 4 / 5;
-    padding-top: 50px;
-
-}
-
-.Working_Hours_Hours {
-    display: grid;
-    grid-column: 5 / 6;
-    padding-top: 50px;
-}
-
-.Logo_Footer {
-    display: grid;
-    grid-column:  6 / 8; 
-  
-
-}
-
-li {
-    padding: 5px;
-    color: #ff0000;
-}
-
