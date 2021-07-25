@@ -15,13 +15,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Lobster&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Great+Vibes&family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <script>
+      /*to prevent Firefox FOUC, this must be here*/
+      let FF_FOUC_FIX;
+    </script>
   </head>
   <body>
-    <div class="videowrapper">
-      <div class="fullScreenDiv">
+    <div class="video-wrapper">
+      <div class="full-screen-div">
         <video
           id="videoBackground"
           role="presentation"
@@ -40,13 +44,13 @@
             <button id="myBtn" onclick="myFunction()">Pause</button>
             <hr style="width: 100%; color: white" />
             <div class="navbar">
-              <a href="#steak">Steak</a>
-              <a href="#burger">Burger</a>
-              <a href="#grill">Grill-Mix</a>
+              <a href="#steak" id="steak1">Steak</a>
+              <a href="#burger" id="burger1">Burger</a>
+              <a href="#grill" id="grill1">Grill-Mix</a>
             </div>
           </div>
         </nav>
-        <div class="videoMessage" class="styling">
+        <div class="video-message">
           <div class="search-wrapper">
             <fieldset>
               <legend align="center">Search for a recipe</legend>
@@ -69,10 +73,63 @@
         </div>
       </div>
     </div>
-    <section class="intro">
-      <h1>HELLOOOOOOO</h1>
+    <section class="discover">
+      <div class="top-discover">
+        <div class="titles-left">
+          <h2 class="royal">Discover</h2>
+          <h3>Our Recipes</h3>
+        </div>
+        <div class="discover-description">
+          <p class="paragraphs">
+            Few thing come close to the joy of steak and fries. Always remember to cook it with simple, loving care. As our Chefs always say, treat your meat with the care and respect it deserves.
+          </p">
+        </div>
+      </div>
     </section>
 
+    <section class="appetizer">
+      <div class="plate1">
+        <img id="reload" src="./images/food/appetizer.png" alt="scroll" />
+      </div>
+      <div class="appetizer-text">
+        <h2><a class="royal" href="#appetizer">Appetizer</a></h2>
+        <p class="paragraphs">
+          Start with our italian style Antipasti. All ingredients are carefully
+          picked to perfectly marry each other.
+        </p>
+      </div>
+    </section>
+
+    <section class="main-dish">
+      <div class="main-dish-text">
+        <h2><a class="royal" href="#mainDish">Main Dish</a></h2>
+        <p class="paragraphs">
+          Our mouth-watering steak recipes will surely satisfy your appetite.
+        </p>
+      </div>
+      <div class="plate2">
+        <img id="reload2" src="./images/food/main.png" alt="scroll" />
+      </div>
+    </section>
+
+    <section class="side-dish">
+      <div class="plate3">
+        <img id="reload3" src="./images/food/plate1.png" alt="scroll">
+      </div>
+      <div class="side-dish-text">
+        <h2><a class="royal" href="#sideDish">Side Dish</a></h2>
+        <p class="paragraphs">Healthy salads mixed with light sliced meat to complement your main dishes.</p>
+      </div>     
+    </section>
+    
+    <section class="best-ingredients">
+      <h2 class="royal">Discover</h2>
+      <h3>The Best Ingredients</h3>
+      <p class="paragraphs">We take an enormous amount of pride in researching our ingredients carefully to ensure that the flavors of our recipes are as authentic and delicious as possible. We're only able to achieve this level of excellence by putting an extra level of care into our ingredients. </p>
+      <div class="ingr-pic">
+        <img src="./images/food/comp1.png" alt="">
+      </div>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
