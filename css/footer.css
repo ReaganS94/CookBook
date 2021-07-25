@@ -2,23 +2,31 @@
   width: 85%;
   margin: 0 auto;
 }
+.menue-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
 .headline-specialties {
   display: flex;
   justify-content: center;
   font-size: x-large;
+  margin-top: 2em;
 }
 
 .specialties_section {
   display: flex;
-  margin-top: 35px;
-  justify-content: space-between;
+  width: 100%;
+  margin-top: 2em;
+  justify-content: space-around;
   align-items: center;
+  margin-bottom: 2em;
 }
 
 .specialty-card {
   display: flex;
   position: relative;
-  width: 300px;
+  width: 20em;
   height: 200px;
   padding: 30px;
   margin: 31px 0;
@@ -31,12 +39,41 @@
   justify-content: center;
   align-items: center;
   height: 200px;
-  width: 400px;
+  width: 20em;
 }
 
 .specialty-card .card-overlay h2 {
   color: white;
 }
+
+/*Best of Recipes for Steak Burger Grill*/
+
+.specialty-card .steak {
+  background-image: url(../images/food/Specialties/beef_tenderloin.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+.specialty-card .mustard-burger {
+  background-image: url(../images/food/Specialties/special\ mustard\ burger.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+.specialty-card .grill {
+  background-image: url(../images/food/Specialties/grill.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+/*Special of the Months*/
+
 .specialty-card .filet-mignon {
   background-image: url(../images/food/filet_mignon.png);
   background-position: center;
@@ -60,6 +97,31 @@
   box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
   border-radius: 12px;
 }
+
+.specialty-card .shish-kebab {
+  background-image: url(../images/food/Specialties/shish-kebab-417994_1280.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+.specialty-card .caprese-burger {
+  background-image: url(../images/food/Specialties/caprese_burger.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
+.specialty-card .fried-steaks {
+  background-image: url(../images/food/Specialties/fried\ steaks.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 30px 0px rgb(255 0 0 / 80%);
+  border-radius: 12px;
+}
+
 .specialty-card:hover {
   transform: scale(1.1);
   transition: transform 0.8s;
@@ -111,13 +173,13 @@
 }
 
 .containerSocialIcons {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 50px;
-  box-shadow: 0px -10px 30px -15px rgb(255 0 0 / 20%);
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 3em;
 }
 .copyright {
   display: flex;
@@ -126,3 +188,14 @@
   font-size: large;
   margin-bottom: 50px;
 }
+
+/*@media only screen and (min-width: 480px;) {
+  .specialty-card .card-overlay {
+    width: 600px;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .specialty-card .card-overlay .containerSocialIcons {
+    width: 80%;
+  }
+}}*/
