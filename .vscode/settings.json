@@ -1,11 +1,14 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "cSpell.ignoreWords": [
         "dropbtn"
     ],
     "liveServer.settings.port": 5501
 }
 =======
+=======
+>>>>>>> branchReagan
   "cSpell.ignoreWords": [
     "dropbtn",
     "ff",
@@ -22,4 +25,14 @@
     "webkit"
   ]
 }
+<<<<<<< HEAD
+>>>>>>> branchReagan
+=======
+=======
+    "cSpell.ignoreWords": [
+        "dropbtn"
+    ],
+    "liveServer.settings.port": 5501
+}
+>>>>>>> cookBookLudo
 >>>>>>> branchReagan

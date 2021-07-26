@@ -1,6 +1,7 @@
 body {
   background-color: #171717;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #ff0000;
   cursor: url(/images/Myfavicon.ico), pointer;
 }
@@ -16,6 +17,8 @@ body {
     width: 80%;
   }
 =======
+=======
+>>>>>>> branchReagan
 }
 
 @font-face {
@@ -120,7 +123,7 @@ hr {
 /* ----------BEST-INGREDIENTS--------------- */
 .best-ingredients {
   width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 10em;
 }
 
 .best-ingredients h2 {
@@ -143,5 +146,8 @@ hr {
 .ingr-pic {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
+>>>>>>> branchReagan
+=======
 >>>>>>> branchReagan
 }
