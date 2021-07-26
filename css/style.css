@@ -1,5 +1,6 @@
 body {
   background-color: #171717;
+<<<<<<< HEAD
   color: #ff0000;
   cursor: url(/images/Myfavicon.ico), pointer;
 }
@@ -14,4 +15,133 @@ body {
   .specialty-card .card-overlay .containerSocialIcons {
     width: 80%;
   }
+=======
+}
+
+@font-face {
+  font-family: Chalky;
+  src: url("/Chalky.otf");
+}
+
+hr {
+  color: white;
+}
+
+.top-pic img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.royal {
+  font-family: "Great Vibes", cursive;
+  font-size: 4em;
+  color: #8a796e;
+}
+
+.paragraphs {
+  color: #fdfdfd;
+  font-size: 1.25em;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+/*--------------------- DISCOVER ----------------------*/
+
+.top-discover {
+  display: flex;
+}
+
+.discover {
+  width: 55%;
+  margin: 5em auto;
+}
+
+.titles-left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin-right: 15%;
+  text-align: end;
+}
+
+.discover-description {
+  width: 70%;
+}
+
+.titles-left h3 {
+  color: #fdfdfd;
+  font-size: 5em;
+  white-space: nowrap;
+}
+
+/* ----------APPETIZER--------------- */
+
+.appetizer {
+  width: 80%;
+  margin: 15em auto 0;
+  display: flex;
+}
+
+.appetizer-text {
+  width: 50%;
+}
+
+.appetizer-text h2 {
+  margin-bottom: 0.5em;
+}
+
+/* ----------MAIN-DISH--------------- */
+.main-dish {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-dish p {
+  margin-top: 0.5em;
+  /* width: 70%; */
+}
+
+.main-dish-text {
+  margin-right: 6em;
+}
+
+/* ----------SIDE-DISH--------------- */
+.side-dish {
+  display: flex;
+  width: 65%;
+  margin: 5em auto 10em;
+}
+
+.side-dish img {
+  margin-right: 10em;
+}
+
+/* ----------BEST-INGREDIENTS--------------- */
+.best-ingredients {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.best-ingredients h2 {
+  text-align: center;
+}
+
+.best-ingredients h3 {
+  text-align: center;
+  font-size: 5em;
+  color: #fdfdfd;
+  margin-bottom: 0.75em;
+}
+
+.best-ingredients p {
+  width: 80%;
+  margin: 0 auto 5em;
+  text-align: center;
+}
+
+.ingr-pic {
+  display: flex;
+  justify-content: center;
+>>>>>>> branchReagan
 }

@@ -1,0 +1,230 @@
+@font-face {
+  font-family: Chalky;
+  src: url("/Chalky.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper70 {
+  background-color: #fdfdfd;
+}
+
+.recipe-picture img {
+  margin-top: 5em;
+}
+
+.wrapit {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapitall {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+.recipe-title {
+  width: 90%;
+  margin: 4em auto 4em;
+}
+
+.recipe-title p {
+  color: #fdfdfd;
+  font-family: "Courgette";
+  font-size: 2em;
+  margin-top: 0.5em;
+  color: red;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 5em;
+  font-family: "Quicksand";
+}
+
+.recipe-details-container {
+  border: 0.0625px solid #000000;
+  border-top: 0.625rem solid #278090;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 40.625rem) {
+  .recipe-details-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6.25rem, 1fr));
+    grid-gap: 0.25rem;
+  }
+}
+
+.recipe-details-container,
+.recipe-details-item {
+  padding-top: 1.875rem;
+}
+
+@media only screen and (min-width: 40.625rem) {
+  .recipe-details-container,
+  .recipe-details-item {
+    border-right: 0.0625rem solid #000000;
+    text-align: center;
+  }
+}
+
+.recipe-details-container,
+.recipe-details-item {
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media only screen and (min-width: 40.625rem) {
+  .recipe-details-container,
+  .recipe-details-item {
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 40.625rem) {
+  .recipe-details-container,
+  .recipe-details-item {
+    display: inline-block;
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+.calories-per-serving,
+.yields,
+.prep-time,
+.cook-time,
+.total-time {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+}
+
+.yields-amount,
+.prep-time-amount,
+.total-time-amount {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1.6875rem;
+  line-height: 1.4;
+  color: #278090;
+  padding-top: 0.625rem;
+}
+
+@media only screen and (min-width: 40.625rem) {
+  .yields-amount,
+  .prep-time-amount,
+  .total-time-amount {
+    display: block;
+  }
+}
+
+.yields-unit,
+.recipe-time-unit {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  color: #000000;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.recipe-details-container,
+.recipe-details-item {
+  border-right: 0.0625rem solid #000000;
+  text-align: center;
+  padding: 1.875rem 0.625rem 1.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.recipe-time-unit {
+  vertical-align: middle;
+  padding-right: 0.25rem;
+  margin-left: -0.25rem;
+}
+
+.recipe-details-item:last-child {
+  border-right: 0;
+}
+
+.recipe-details-container {
+  padding: 0;
+  margin: 1.875rem 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.recipe-wrapper {
+  color: #000000;
+  line-height: 1.7;
+  font-family: sans-serif;
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+@media only screen and (min-width: 73.75rem) {
+  .recipe-wrapper,
+  .ingredients,
+  .recipe-wrapper,
+  .directions {
+    display: flex;
+    align-items: start;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 0;
+    width: 49%;
+  }
+}
+
+.ingredients {
+  margin-bottom: 1.875rem;
+}
+
+@media only screen and (min-width: 40.625rem) {
+  .ingredients-header-title,
+  .directions-header-title {
+    border-top: 0;
+    padding-top: 0;
+  }
+}
+
+.ingredients-header-title,
+.directions-header-title {
+  font-family: Helvetica, Arial, Sans-serif;
+  font-size: 1.4375rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0.9375rem;
+  border-top: 0.1875rem solid #278090;
+  padding-top: 0.9375rem;
+}
+
+.ingredient-description p {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.direction-lists li {
+  padding-bottom: 1.875rem;
+}
+
+li::before {
+  content: counter(li);
+  color: #278090;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 20px;
+}
+
+li {
+  counter-increment: li;
+}
