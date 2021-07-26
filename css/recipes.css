@@ -11,7 +11,15 @@
   background-color: white;
 }
 
+.recipe-picture img {
+  margin-top: 5em;
+}
+
 .wrapit {
+  margin-left: 10em;
+}
+
+.wrapitall {
   margin-left: 10em;
 }
 
