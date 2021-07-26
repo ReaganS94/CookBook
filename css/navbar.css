@@ -157,10 +157,6 @@ nav {
   color: red;
 }
 
-/* fieldset {
-  border-color: red;
-} */
-
 @media only screen and (min-width: 1200px) {
   fieldset {
     position: relative;

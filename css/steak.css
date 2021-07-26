@@ -16,6 +16,7 @@
   height: auto;
   margin: auto;
   overflow: hidden;
+  padding-bottom: 5em;
 }
 
 .image-container {
