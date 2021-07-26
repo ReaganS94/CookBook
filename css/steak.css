@@ -52,14 +52,18 @@
   text-align: center;
   margin-left: -15px;
   text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 25px;
+  font-family: "Zen Loop";
+  letter-spacing: 3px;
+  font-size: 32px;
+  font-weight: 600;
   color: #fdfdfd;
 }
 
 .image-caption p {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Zen Loop";
+  letter-spacing: 2px;
+  font-size: 26px;
   color: #fff;
   width: 60%;
   margin: 0 auto;
