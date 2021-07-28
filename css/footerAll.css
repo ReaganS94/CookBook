@@ -1,0 +1,31 @@
+.containerSocialIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  padding: 3em;
+  transform: scale(0.4);
+  opacity: 0.8;
+}
+.copyright {
+  font-family: "Kavivanar", sans-serif;
+  font-size: large;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #4f4c4c;
+}
+
+.footerAll img {
+  margin-right: 8em;
+}
+
+.footerAll img:hover {
+  transform: scale(1.2);
+}
+
+.copyright a {
+  color: #4f4c4c;
+  padding-bottom: 1em;
+}

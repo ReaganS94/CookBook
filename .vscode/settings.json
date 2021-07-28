@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "cSpell.ignoreWords": [
     "dropbtn",
+    "ff",
+    "fix",
+    "fouc",
     "grillmix",
     "hellooooooo",
     "ingr",
+    "minmax",
     "pic",
     "playsinline",
     "transform",
@@ -11,3 +16,10 @@
     "webkit"
   ]
 }
+=======
+    "cSpell.ignoreWords": [
+        "dropbtn"
+    ],
+    "liveServer.settings.port": 5501
+}
+>>>>>>> cookBookLudo

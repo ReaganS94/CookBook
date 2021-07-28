@@ -2,6 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background-color: #171717;
 }
 
 fieldset {
@@ -155,10 +156,6 @@ nav {
   background: #ddd;
   color: red;
 }
-
-/* fieldset {
-  border-color: red;
-} */
 
 @media only screen and (min-width: 1200px) {
   fieldset {
